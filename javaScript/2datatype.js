@@ -2,3 +2,7 @@
 
 var name = "Alok";
 console.log("My name is" + " " + name );
+
+//typeof :- helps to find datatype of variable.
+
+console.log("Data type of name is " + (typeof name));
