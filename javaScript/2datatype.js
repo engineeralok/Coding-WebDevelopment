@@ -94,5 +94,32 @@ let myarr = [1,2,3,4,5];
 console.log(myarr, (typeof myarr));
 
 //convert an array into string 
+myarr = String(myarr);
+console.log(myarr,(typeof myarr));
 
+//2.Object literals:-
+//In real life, a car is an object.
+// A car has properties like weight and color, and methods like start and stop:
+let studentsMarks = {
+    Alok : 99,
+    Rahul : 35,
+    Rohan : 11,
+    Shubham : 10
+}
+
+console.log(studentsMarks, (typeof studentsMarks));
+
+//3.Function:-
+//A JavaScript function is a block of code designed to perform a particular task.
+
+// A JavaScript function is executed when "something" invokes it (calls it).
+function myFunction(a,b){
+    return a + b;
+}
+
+let x = myFunction(4,3);
+
+console.log(x, (typeof myFunction));
+
+//4.Date:-
 
