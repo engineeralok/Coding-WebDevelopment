@@ -122,4 +122,7 @@ let x = myFunction(4,3);
 console.log(x, (typeof myFunction));
 
 //4.Date:-
+//JavaScript Date Object lets us work with dates
+let d = new Date();
+console.log(d,(typeof d));
 
