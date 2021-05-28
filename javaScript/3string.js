@@ -40,4 +40,13 @@ console.log(str1.substring(1,5));
 
 //slice() -> same as substring but it can take negative values and shows the output from the end of the string
 
-console.log(str1.slice)
+console.log(str1.slice(-4));
+console.log(str1.slice(1,5));
+
+//split() -> It spit the tring and make it an array
+
+console.log(str1.split(''));
+
+//replace() -> Helps to replace a word to given word from a string
+console.log(str1.replace('This','that'));
+
