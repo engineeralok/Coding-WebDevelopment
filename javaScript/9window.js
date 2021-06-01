@@ -27,4 +27,8 @@ console.log(sx);
 let sy = window.scrollY;
 console.log(sy);
 
+//window.history -> gives the history of webpage
+let h = window.history;
+console.log(h);
+
 
