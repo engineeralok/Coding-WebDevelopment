@@ -38,6 +38,12 @@ let arr2 = [11,22,33,44,55];
 arr1 = arr1.concat(arr2);
 console.log(arr1);
 
+//Array.from() -> to make an array
+
+// Array.from(a).forEach(element => {
+//     console.log(element);
+// });
+
 //objects
 
 let myObj = {
