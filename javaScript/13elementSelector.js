@@ -155,10 +155,24 @@ newHeading.appendChild(Tnode);
 //replaceWith() -> replace an element with the new element
 newElement.replaceWith(newHeading);
 
-//Replace an id with new id :-
-cont.replaceChild('HeadinIDof',document.getElementsByClassName('h1Heading')[0].id);
-
-let idOfh1Heading = document.getElementsByClassName('h1Heading')[0].id;
-
 //replaceChild() -> Replace the child with new child
+//showing error :-- my mind fucked up
+// let tenode = document.createTextNode('Hello this text is replaced')
+// contText = document.getElementsByClassName('.h1Heading');
+// contText.replaceChild(tenode,contText.childNodes[0]);
 
+//removeChild() -> Remove a child from selected element
+// let elementUl = document.getElementsByClassName('ulElement');
+// elementUl.removeChild(document.getElementById('heading'));
+
+//getAttribute() -> Get the attribute of the selected element
+let pr = cont.getAttribute('class');
+console.log(pr);
+
+//hasAttribute() -> return true if given attribute is in the selected element elese return false
+pr = cont.hasAttribute('class');
+console.log(pr);
+
+//removeAttribute() -> remove the given attribute from the selected element
+pr = cont.removeAttribute('title');
+console.log(cont);
