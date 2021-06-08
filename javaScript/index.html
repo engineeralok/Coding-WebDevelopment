@@ -10,18 +10,21 @@
 </head>
 
 <body>
-    <h1 id="heading" class="h1Heading">JavaScript Practice</h1>
+    <h1 id="heading" class="h1Heading"> <span>JavaScript</span> Practice</h1>
 
-    <button id="reloadButton" onclick="reload()">Reload</button>
-    <button id="gotoGoogle" onclick="Google()">Google.Com</button>
-    <button id="getAddress" onclick="getAddress()">Get add of this page</button>
+    <button id="reloadButton" class="h1Heading" onclick="reload()">Reload</button>
+    <button class="h1Heading" id="gotoGoogle" onclick="Google()">Google.Com</button>
+    <button class="h1Heading" id="getAddress" onclick="getAddress()">Get add of this page</button>
 
-    <ul>
-        <li><a href="https://www.google.com" id="atag">Google</a></li>
-        <li><a href="https://www.facebook.com">Facebook</a></li>
-        <li><a href="https://www.youtube.com">Youtube</a></li>
-        <li><a href="https://www.github.com"></a>Github</li>
-    </ul>
+    <div class="C">
+        <ul class="ulElement">
+            <li id="li"><a href="https://www.google.com" id="atag">Google</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://www.youtube.com">Youtube</a></li>
+            <li><a href="https://www.github.com"></a>Github</li>
+        </ul>
+        <button id="reloadButton" class="h1Heading" onclick="reload()">Reload</button>
+    </div>
 
     <form id="form"
         style=" position: absolute; border-top-left-radius: 20px; border-bottom-right-radius: 20px; background-color: #f0f0f0; padding: 25px; width: 25%; height: 70%; ">
@@ -29,7 +32,7 @@
             <h2>Form <span style=" color: orange;">Get</span></h2>
         </center>
         <hr>
-        <label>Full Name:</label>
+        <label class="h1Heading">Full Name:</label>
         <br>
         <input type="text" name="sname" placeholder="Full Name"><br><br>
         <label>Email:</label>
