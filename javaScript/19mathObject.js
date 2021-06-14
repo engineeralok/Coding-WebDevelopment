@@ -67,3 +67,23 @@ z = Math.tan(25);
 z = Math.cbrt(64);
 
 console.log(z);
+
+// Converting between degrees and radians:-
+// The trigonometric functions such as sin(), cos(),tan() expect angles in radians.
+
+// Since humans tend to think in degrees, and some functions can accept degrees, it is good to keep functions handy that convert between the two. 
+
+function degToRad(degrees) {
+    return degrees * (Math.PI / 180);
+};
+function radToDeg(rad) {
+    return rad / (Math.PI / 180);
+};
+
+console.log(degToRad(60));
+
+
+
+
+// Key Takeaways:-
+// The math object is one of the most important features in JavaScript, as it provides various properties and methods which can perform mathematical operations. We can use mathematical constants such as PI and Log values using the properties provided by Math object such as Math.PI. In addition to the above, we can also invoke the methods provided by Math object such as abs(), ceil(), etc. to perform various mathematical operations on multiple variables.
