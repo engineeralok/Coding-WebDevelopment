@@ -38,7 +38,7 @@
         <hr>
         <label class="h1Heading">Full Name:</label>
         <br>
-        <input type="text" name="sname" placeholder="Full Name"><br><br>
+        <input type="text" name="sname" placeholder="Full Name" id="fullname"><br><br>
         <label>Email:</label>
         <br>
         <input type="text" name="sname" placeholder="Email"><br><br>
@@ -51,6 +51,10 @@
         <center>
             <input type="submit" value="SUBMIT">
         </center>
+
+        <button id="btn" onclick="myFunction()">
+            Click Me
+        </button>
     </form>
 
 
@@ -78,7 +82,15 @@
     <!-- <script src="19mathObject.js"></script> -->
     <!-- <script src="20dateObject.js"></script> -->
     <!-- <script src="21ObjectliteralsAndConstructor.js"></script> -->
-    <script src="22objectPrototype.js"></script>
+    <!-- <script src="22objectPrototype.js"></script> -->
+    <script src="23dom_mani.js"></script>
+    <!-- <script>
+        let message = document.getElementById("fullname");
+
+        function myFunction(){
+            alert(message.value);
+        }
+    </script> -->
 </body>
 
 </html>
