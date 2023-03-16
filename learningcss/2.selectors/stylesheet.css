@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: 24px;
+}
+
+h2:hover{
+    font-family: cursive;
+    font-size: 50px;
+
+}
+
+/* #element p{
+    background-color: green;
+} */
+
+#element>p{
+    background-color: green;
+}
+
+#element, #id{
+    background-color: tomato;
+}
+
+.article{
+    color: blueviolet !important; /*Do not use unless you have to*/
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hightlight{
+    background-color: gold;
+    font-weight: bolder;
+    font-style: italic;
+}
