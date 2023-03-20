@@ -1,0 +1,43 @@
+* {
+    /* border: 1px solid tomato; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    /* width: 50%; */
+    display: inline-block;
+}
+
+img{
+    width: 300px;
+    display: none;
+}
+
+a{
+    margin: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 30px;
+    text-align: end;
+    background-color: black;
+    color: chocolate;
+
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+li:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
