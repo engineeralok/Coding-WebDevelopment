@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    font-size: 2rem;
+    color: g;
+}
+
+
+.container{
+    height: 900px;
+    width: 300px;
+    background-color: antiquewhite;
+    margin: 100px;
+    position: relative;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.red{
+    background-color: tomato;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.green{
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.blue{
+    background-color: blue;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
+
+.purple{
+    background-color: purple;
+    position: sticky;
+    top: 0;
+
+}
+
+.spacer{
+    height: 300vh;
+}
+
