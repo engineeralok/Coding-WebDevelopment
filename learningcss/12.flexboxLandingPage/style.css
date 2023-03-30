@@ -62,6 +62,7 @@ ul {
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
     /* border: 1px solid green; */
+    overflow: hidden;
 }
 
 .flex {
@@ -87,6 +88,7 @@ ul {
     padding: 12px 24px;
     box-shadow: 0 0 2px var(--secondary-text-color);
     transition: 0.2s ease-out;
+    text-align: center;
 }
 
 .primary-button:hover {
@@ -129,6 +131,7 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -144,6 +147,9 @@ ul {
     gap: 40px;
 }
 
+.nav-toggle{
+    display: none;
+}
 /* header section */
 
 header {
@@ -169,7 +175,7 @@ header {
 }
 
 .header-right img {
-    width: 600px;
+    width: 100%;
 }
 
 /* companies section */
@@ -180,8 +186,9 @@ header {
 }
 
 .logos {
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .logo {
@@ -211,7 +218,7 @@ header {
     margin-top: 20px;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 .features-card {
@@ -236,6 +243,10 @@ header {
     gap: 30px;
 }
 
+.big-feature-container2{
+    flex-direction: row-reverse;
+}
+
 .big-features-image img {
     width: 100%;
 }
@@ -249,6 +260,9 @@ header {
 .example-section{
     margin-block: 220px;
 }
+.example-heading-text{
+    text-align: center;
+}
 .example-header {
     flex-direction: column;
     gap: 20px;
@@ -257,13 +271,14 @@ header {
 .example-area {
     justify-content: space-between;
     margin-block: 30px;
+    flex-wrap: wrap;
 
 }
 
 .example-card {
     width: 23%;
     position: relative;
-    min-height: 300px;
+    height: 300px;
     background: black;
     background: linear-gradient(to top, rgb(0, 0, 0, 0.8), rgb(0, 0, 0, 0)), url('./assets/asset\ 36.jpeg');
     background-size: cover;
@@ -311,6 +326,7 @@ header {
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section-container p {
@@ -345,4 +361,5 @@ footer {
 .sub-footer-container {
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
