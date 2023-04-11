@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* variables */
+
+:root {
+    --bg-color: rgb(255, 255, 255);
+    --primary-accent-color: #0a66c2;
+    --secondry-accent-color: #004182;
+    --primary-text-color: #000000;
+    --sub-primary-text-color: #000000d0;
+    --primary-focus-color: #000000d0;
+    --primary-focus-accent-color: #70b5f9;
+    --secondry-text-color: #000000af;
+    --sub-headings-color: #00000098;
+    --heading-accent-main-color: #8f5849;
+    --heading-accent-secondary-color: #b24020;
+
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* utility classes */
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.flex-dir-column {
+    flex-direction: column;
+}
+
+
+/* Navbar ---------------------------------------------------*/
+nav {
+    max-width: 1128px;
+    height: 80px;
+    margin: auto;
+    padding-block: 12px;
+    justify-content: space-between;
+}
+
+.logo {
+    /* text-decoration: none; */
+    /* width: 30vw; */
+    height: 34px;
+    filter: invert(32%) sepia(59%) saturate(1407%) hue-rotate(179deg) brightness(97%) contrast(99%);
+    /* align-self: flex-start important!; */
+}
+
+nav li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 80px;
+    height: 52px;
+    padding-inline: 8px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.nav-icon {
+    height: 24px;
+    width: 24px;
+}
+
+.nav-container {
+    column-gap: 8px;
+    height: 48px;
+}
+
+.nav-container a{
+    text-decoration: none;
+    padding-block: 12;
+    padding-inline: 24px;
+    border: 1px solid black;
+    border-radius: 24px;
+    min-height: 48px;
+    height: min-content;
+    font-size: 16px;
+    font-weight: 600;
+}
