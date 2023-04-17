@@ -11,48 +11,190 @@
 
 <body>
     <!-- Navbar -------------------------------------->
-    <nav class="navbar flex flex-dir-row items-center">
+    <nav class="navbar flex flex-dir-row items-center section-width">
         <a href="#">
             <img class="logo" src="assets/linkedInLogo.svg" alt="linkedInLogo">
         </a>
 
         <div class="nav-right flex items-center">
-            <ul class="flex flex-dir-row .items-center">
+            <ul class="flex flex-dir-row items-center">
                 <li>
-                    <div class="nav-icon">
+                    <a class="flex flex-dir-column" href="#">
                         <img src="assets/compasDiscoverIcon.svg" alt="DiscoverIcon">
-                    </div>
-                    <a href="#">Discover</a>
+                        
+                        <span>Discover</span></a>
                 </li>
                 <li>
-                    <div class="nav-icon">
+                    <a href="#">
                         <img src="assets/peopleIcon.svg" alt="peopleIcon">
-                    </div>
-                    <a href="#">People</a>
+                        
+                        <span>People</span></a>
                 </li>
                 <li>
-                    <div class="nav-icon">
+                    <a href="#">
                         <img src="assets/learningIcon.svg" alt="learningIcon">
-                    </div>
-                    <a href="#">Learning</a>
+                        
+                        <span>Learning</span></a>
                 </li>
                 <li>
-                    <div class="nav-icon">
+                    <a href="#">
                         <img src="assets/JobsIcon.svg" alt="JobsIcon">
-                    </div>
-                    <a href="#">Jobs</a>
+                        
+                        <span>Jobs</span></a>
                 </li>
             </ul>
             <div class="nav-container flex flex-dir-row">
                 <a href="#" class="nav-buttons joinnow-button flex items-center justify-center">
-                    <span>Join now</span>
+                    <span>
+                        Join now
+                    </span>
                 </a>
                 <a href="" class="nav-buttons signin-button flex items-center justify-center">
-                    <span>Sign in</span>
+                    <span>
+                        Sign in
+                    </span>
                 </a>
             </div>
         </div>
     </nav>
+
+    <!-- Main Section ----------------------------->
+    <main class="main-section flex flex-dir-column">
+
+        <!-- Landing Section -->
+        <section class="section-width section landing-section-container flex-dir-row">
+            <div class="form-container flex flex-dir-column">
+                <h1 class="main-heading">
+                    Welcome to your professional community
+                </h1>
+                <div class="login-form">
+                    <form action="#">
+                        <div class="email-password flex flex-dir-column">
+                            <div class="email">
+                                <div class="label-container">
+                                    <label class="label" for="">Email or phone</label>
+                                </div>
+
+                                <div class="input-container flex">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="password">
+                                <div class="label-container">
+                                    <label class="label" for="">Password</label>
+                                </div>
+                                <div class="input-container">
+                                    <input type="password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-footer flex flex-dir-column">
+                            <a href="#">Forget password?</a>
+
+                            <!-- <button class="btn flex"> -->
+                            <input class="btn flex" type="button" value="Sign in">
+                            <!-- </button> -->
+
+                        </div>
+
+                        <div class="form-divider flex">
+                            <p>or</p>
+                        </div>
+                    </form>
+
+                    <div class="form-sub-footer flex flex-dir-column">
+                        <button class="btn flex google-btn flex flex-dir-row">
+                            <img src="./assets/GoogleIcon.svg" alt="Google Icon">
+                            <span>Sign in with Google</span>
+                        </button>
+
+                        <button class="btn flex google-btn flex flex-dir-row">
+                            <span>New to LinkedIn? Join now</span>
+                        </button>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="landing-image-container">
+                <img src="./assets/mainSectionPic.svg" alt="" class="landing-image">
+
+            </div>
+
+        </section>
+
+        <section class=" section2 flex flex-dir-row">
+            <div class="section section-width">
+                <div class="secondry-heading-container flex">
+                    <h2 class="secondry-heading">
+                        Explore topics you are interested in
+                    </h2>
+                </div>
+                <div class="content-topic-container flex flex-dir-column">
+                    <h2 class="content-topic-heading">CONTENT TOPICS</h2>
+                    <ul class="content-topic-list flex flex-dir-row">
+                        <li class="topic-container"><a href="#" class="topic flex topic-emphasis">See All Topics</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Workplace</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Job Search</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Careers</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Interviewing</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Salary or Compensation</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Internships</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Employee Benifits</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section3 flex">
+            <div class="section section-width">
+                <div class="secondry-heading-container flex">
+                    <h2 class="secondry-heading">
+                        Find the right job or internship for you
+                    </h2>
+                </div>
+                <div class="content-topic-container flex flex-dir-column">
+                    <h2 class="content-topic-heading">SUGGESTED SEARCHES</h2>
+                    <ul class="content-topic-list flex flex-dir-row">
+                        <li class="topic-container"><a href="#" class="topic flex">Engineering</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Business Development</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Finance</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Administrative Assistant</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Retail Associate</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Customer Service</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Operations</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Information Technology</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Marketing</a></li>
+                        <li class="topic-container"><a href="#" class="topic flex">Human Resources</a></li>
+                    </ul>
+                    <button class="show-more-btn flex flex-dir-row">
+                        Show More
+                        <img src="./assets/downArrow.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section4 flex">
+            <div class="section section-width">
+                <div class="secondry-heading-container flex">
+                    <h2 class="secondry-heading">
+                        Post your job for millions of people to see
+                    </h2>
+                </div>
+                <div class="content-topic-container flex flex-dir-column">
+                    <ul class="content-topic-list flex flex-dir-row">
+
+                        <li class="topic-container"><a href="#" class="topic flex topic-emphasis">Engineering</a></li>
+                        </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
 </body>
 
 </html>
