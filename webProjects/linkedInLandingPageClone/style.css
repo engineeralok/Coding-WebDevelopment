@@ -138,7 +138,6 @@ nav li a:hover {
 }
 
 
-
 .nav-container a {
     text-decoration: none;
     padding-block: 12;
@@ -372,6 +371,11 @@ nav li a:hover {
     column-gap: 8px;
 }
 
+.topic-container{
+    text-decoration: none;
+    list-style: none;
+}
+
 
 .topic {
     font-weight: 600;
@@ -396,7 +400,7 @@ nav li a:hover {
     background-color: var(--secondry-focus-color);
 }
 
-/* 3rd Section */
+/* 3rd Section -----------------------------------------*/
 .section3 {
     padding-block: 60px;
 }
@@ -422,7 +426,7 @@ nav li a:hover {
     gap: 6px;
 }
 
-/* 4th Section */
+/* 4th Section --------------------------------------*/
 
 .section4{
     background-color: #F1ECE5;
@@ -433,3 +437,80 @@ nav li a:hover {
     color: var(--heading-accent-secondry-color);
     font-weight: 400;
 }
+
+/* 5th section --------------------------------------------*/
+.section5{
+    min-height: 880px;
+    background-color: #F3F2F0
+
+}
+
+.section5-left{
+    width: 564px;
+    height: 100%;
+    margin-right: 64px;
+}
+
+.section5-left h2{
+    font-size: 40px;
+    color:var(--heading-accent-main-color);
+    font-weight: 400;
+}
+
+.section5-left p{
+    font-weight: 200;
+    font-size: 32px;
+}
+
+.section5-right img{
+    width: 450px;
+}
+
+/* 6th section ----------------------------------------------------*/
+.section6{
+    min-height: 900px;
+    
+}
+
+.section6-item{
+    align-items: center;
+}
+
+.section6-containers{
+    width: 100%
+}
+
+.section6 h2{
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+.section6 img{
+    height: 312px;
+    width: 312px;
+}
+
+.find-people{
+    width: 500px;
+}
+
+.learn-skills{
+    width: 500px;
+}
+
+.section6-topic{
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    box-shadow: 0 0 0 1px #b9b9b9c2;
+}
+
+.section6-topic img{
+    width: 24px;
+    height: 24px;
+}
+
+
