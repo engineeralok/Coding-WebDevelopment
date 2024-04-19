@@ -1,0 +1,37 @@
+<!-- ek object hai and usmein kuch properties ho sakti hia aur wo object black bhi ho sakta hai, aako us objeck ki name 
+name property ko kuch karna ai jo ki again ek object ho sakti hai aur uske andar aapko first name ki property ko access karma hai,
+aisa code likhiye ki type error na aye kisi bhi case me. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var obj = {
+            // name : {
+            //     first : "sachin",
+            //     middle : "tendulkar",
+            //      last : "dhoni"
+                
+            // }
+        }
+
+        // console.log(obj.name.first);
+        //es11 2020
+        //optional chaining //conditional chaining
+        console.log(obj?.name?.first);
+
+        //nullish coalescing operator - ?? - es11 2020
+        //falsy values kaafi saari hoti hai and ?? null and undefined ke liye jo iske baad likhenge wo return krta hai
+        // ek object hai uski name property nikalo aur agar name na ho to name ko default set krdo
+        
+        console.log(obj?.name?.middle ?? "not found");
+    </script>
+</body>
+</html>
